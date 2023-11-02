@@ -1,0 +1,24 @@
+{estEgg.project_name}/                      
+    dataset/          # place some toy dataset as examples..
+        __init__.py
+        {estEgg.bdd_ds_type}/              
+            {estEgg.bdd_ds_type}.py
+        alps/
+            alps.py
+    model/         
+        __init__.py     # model builder
+        DenseNet.py
+        ViT.py
+        block/          # basic block
+            __init__.py
+            resblk.py
+            trfs.py
+            quantized.py
+    trainer/
+        __init__.py
+        iterbase.py
+        epbase.py
+    README.md
+    Makefile
+    main.py
+    {estEgg.open_source_license}.txt

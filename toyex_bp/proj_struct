@@ -1,0 +1,24 @@
+📁 sample_project/
+├─📁 dataset/
+│ ├─📄 __init__.py
+│ ├─📁 bdd10k/
+│ │ └─📄 bdd10k.py
+│ └─📁 alps/
+│   └─📄 alps.py
+├─📁 model/
+│ ├─📄 __init__.py
+│ ├─📄 DenseNet.py
+│ ├─📄 ViT.py
+│ └─📁 block/
+│   ├─📄 __init__.py
+│   ├─📄 resblk.py
+│   ├─📄 trfs.py
+│   └─📄 quantized.py
+├─📁 trainer/
+│ ├─📄 __init__.py
+│ ├─📄 iterbase.py
+│ └─📄 epbase.py
+├─📄 README.md
+├─📄 Makefile
+├─📄 main.py
+└─📄 BSD-3-Clause.txt
